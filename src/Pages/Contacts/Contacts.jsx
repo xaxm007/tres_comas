@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Contacts.css';
+import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 function Contacts()
 {
@@ -9,7 +10,10 @@ function Contacts()
             <section className = "Footer">
                 
                 <div class = "Links">
-                    <p>Socials</p> 
+                    <p>Socials</p>
+                    <b><FiFacebook /></b>
+                    <FiTwitter />
+                    <FiInstagram />
                 </div>
                 
                 <div className="Us">
