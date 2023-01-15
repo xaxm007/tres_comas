@@ -1,11 +1,16 @@
 import React from 'react'
 import './Home.css'
 import Contacts from '../Contacts/Contacts'
+import Photos from '../Photos/logo.png'
+import Pic from '../Photos/search.png'
 
 const Home = () => {
   return (
     <>
         <section className = "main-container">
+            <div className='logo'>
+                <img src={Photos} alt="Site" width="200px" align="left"/>
+            </div>
             <div>
                 <ul className="nav1">
                     <li className="navitem">
@@ -22,14 +27,12 @@ const Home = () => {
                     </li>
                 </ul>
             </div>
-
             <div className = "search-bar">
-                <h1>Buy Sell Rent</h1>
-                <form>
+                <form action="">
                     <input type="text" placeholder="Search"></input>
+                    <button><img src={Pic} alt="Scan"/></button>
                 </form>
             </div>
-
         </section>
         <Contacts />
         
