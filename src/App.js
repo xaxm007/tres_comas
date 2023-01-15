@@ -19,9 +19,10 @@ const App = () => {
           <Route exact path = "/buy" element = {< Buy />} />
           <Route exact path = "/sell" element = {<Sell />} />
           <Route exact path = '/rent' element = {<Rent/>} />
-          <Route exact path = "/contact" element = {<Contacts/>} />
+
         </Routes>
       </BrowserRouter>
+      <Contacts />
       
     </>
   )
