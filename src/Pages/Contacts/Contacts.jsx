@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contacts.css';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import Photos from '../Photos/logo.png'
 
 function Contacts()
 {
@@ -22,9 +23,11 @@ function Contacts()
                 
                 <div className="Us">
                     <div className = "footer-left">
-                        <p>LOGO</p>
+                        <img src={Photos} alt="Site" align="left" width="130px" />                      
                     </div>
-
+                    <div className="footer-mid">
+                        <p>Email-buysell@xyz.com</p>
+                    </div>
                     <div className = "footer-right">
                         <h2>Contact Us</h2>
                             <p>+977-9807645344</p>

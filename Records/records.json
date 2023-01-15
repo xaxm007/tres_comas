@@ -1,0 +1,26 @@
+{
+    "file":[
+        {
+            "name": "name",
+            "label":"Name",
+            "required":true,
+            "data_type":"Integer",
+            "html_element":"textbox"
+        },
+        {
+            "name": "Email",
+            "label":"Email",
+            "hidden": false,
+            "required":true,
+            "data_type":"String",
+            "html_element":"email"
+        },
+        {
+            "name": "phone",
+            "label":"Phone",
+            "required":true,
+            "data_type":"number",
+            "html_element":"textbox"
+        }
+    ]
+}
