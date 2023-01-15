@@ -1,0 +1,20 @@
+.Footer
+{
+    height: 50vh;
+    width: 95%;
+    padding: 40px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+.Links
+{
+    color: aliceblue;
+    text-align: center;
+}
+.Us
+{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
