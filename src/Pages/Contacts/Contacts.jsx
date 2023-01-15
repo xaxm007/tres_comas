@@ -9,17 +9,14 @@ function Contacts()
         <>
             <section className = "Footer">
                 
-<<<<<<< HEAD
+
                 <div class = "Links">
                     <p>Socials</p>
                     <FiFacebook />
                     <FiTwitter />
                     <FiInstagram />
-=======
-                <div className = "Links">
-                    <p>Socials</p> 
->>>>>>> 2d58400 (committed)
                 </div>
+              
                 
                 <div className="Us">
                     <div className = "footer-left">

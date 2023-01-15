@@ -1,30 +1,14 @@
-<<<<<<< HEAD
 import React from 'react'
 
-const Buy = () => {
+const  Buy = () => {
   return (
-    <div>Buy</div>
+    <>
+        <h1>
+            Buy your favourite plot.
+        </h1>
+
+    </>
   )
 }
 
 export default Buy
-=======
-import React from "react";
-import Records from "records.json"
-
-function Buy() {
-    return (
-        <div className="Buy">
-            <div className="post">
-                {
-                    Data.map(post=>{
-                        
-
-                    })
-                }
-            </div>
-
-        </div>
-    )
-}
->>>>>>> origin/main

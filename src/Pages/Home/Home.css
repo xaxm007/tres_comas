@@ -47,7 +47,7 @@
   left:0;
   width: 100%;
 }
-<<<<<<< HEAD
+
 
 .new
 {
@@ -56,7 +56,7 @@
   border: 1px solid gray;
   margin: 0 auto;
   position:relative;
-=======
+}
 .search-bar
 {
   width: "100%";
@@ -89,5 +89,5 @@
   height: 60px;
   background: #58629b;
   cursor: pointer; 
->>>>>>> origin/main
+
 }
