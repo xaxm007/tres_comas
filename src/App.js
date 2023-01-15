@@ -1,9 +1,10 @@
-
 import './App.css';
+import Contacts from './Pages/Contacts/Contacts'
+
 
 function App() {
   return (
-   <h1>hello hi</h1>
+   <Contacts />
   );
 }
 
