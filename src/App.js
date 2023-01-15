@@ -1,9 +1,11 @@
-
 import './App.css';
+import Aboutus from './Pages/AboutUs/Aboutus';
 
 function App() {
   return (
-   <h1>hello</h1>
+   <>
+    <Aboutus/>
+   </>
   );
 }
 
