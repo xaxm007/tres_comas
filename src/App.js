@@ -11,17 +11,18 @@ import Contacts from './Pages/Contacts/Contacts'
 const App = () => {
   return (
     <>
+    
 
       <BrowserRouter>
         <Routes>
-          <Route exact path = "/" element = {<Home />} />
-          <Route exact path = "/aboutus" element = {<AboutUs />} />
           <Route exact path = "/buy" element = {< Buy />} />
           <Route exact path = "/sell" element = {<Sell />} />
           <Route exact path = '/rent' element = {<Rent/>} />
 
         </Routes>
       </BrowserRouter>
+      <Home />
+      <AboutUs />
       <Contacts />
       
     </>
