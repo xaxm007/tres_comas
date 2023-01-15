@@ -1,0 +1,45 @@
+.main-container
+{
+  height: 100vh;
+}
+
+.nav1
+{
+
+    display:flex;
+    justify-content: flex-end;
+    align-items: right;
+    list-style: none;
+}
+
+.nav1 li
+{
+  margin:0 3rem;
+  cursor: pointer;
+}
+
+.navitem .navlink 
+{
+  position:relative;
+  color: var(--light);
+  text-decoration: none;
+  padding: 5;
+  font-size: 1.3rem;
+}
+
+.nav1 .navlink::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 1px;
+  transition: 0.4s ease-out;
+}
+
+.nav1 .navlink:hover::after
+{
+  left:0;
+  width: 100%;
+}
