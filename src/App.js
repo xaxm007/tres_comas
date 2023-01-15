@@ -1,4 +1,12 @@
 import './App.css';
+
+import Contacts from './Pages/Contacts/Contacts'
+
+
+function App() {
+  return (
+   <Contacts />
+
 import Aboutus from './Pages/AboutUs/Aboutus';
 
 function App() {
@@ -9,6 +17,7 @@ function App() {
    </>
 
    <h1>hello hi</h1>
+
 
   );
 }
