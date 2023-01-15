@@ -47,6 +47,16 @@
   left:0;
   width: 100%;
 }
+
+
+.new
+{
+  width: 95%;
+  height: 30vh;
+  border: 1px solid gray;
+  margin: 0 auto;
+  position:relative;
+}
 .search-bar
 {
   width: "100%";
@@ -79,4 +89,5 @@
   height: 60px;
   background: #58629b;
   cursor: pointer; 
+
 }
