@@ -1,25 +1,33 @@
-import './App.css';
-
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+// Importing pages from Pages component
+import Home from "./Pages/Home/Home"
+import AboutUs from './Pages/AboutUs/Aboutus'
+import Buy from './Pages/Buy/Buy'
+import Sell from './Pages/Sell/Sell'
+import Rent from './Pages/Rent/Rent'
 import Contacts from './Pages/Contacts/Contacts'
 
-
-function App() {
+const App = () => {
   return (
-   <Contacts />
+    <>
+    
 
-import Aboutus from './Pages/AboutUs/Aboutus';
+      <BrowserRouter>
+        <Routes>
+          <Route exact path = "/buy" element = {< Buy />} />
+          <Route exact path = "/sell" element = {<Sell />} />
+          <Route exact path = '/rent' element = {<Rent/>} />
 
-function App() {
-  return (
+        </Routes>
+      </BrowserRouter>
+      <Home />
+      <AboutUs />
+      <Contacts />
+      
+    </>
+  )
 
-   <>
-    <Aboutus/>
-   </>
-
-   <h1>hello hi</h1>
-
-
-  );
 }
 
-export default App;
+export default App
