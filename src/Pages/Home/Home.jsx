@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Contacts from '../Contacts/Contacts'
 
 const Home = () => {
   return (
@@ -16,7 +17,9 @@ const Home = () => {
                     <li className="navitem">
                         <a className="navlink" href="/rent" >Rent</a>
                     </li>
-                   
+                    <li className="navitem">
+                        <a className="navlink" href="/aboutus">About Us</a>
+                    </li>
                 </ul>
             </div>
 
@@ -28,6 +31,8 @@ const Home = () => {
             </div>
 
         </section>
+        <Contacts />
+        
     </>
   )
 }

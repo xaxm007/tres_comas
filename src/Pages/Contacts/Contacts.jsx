@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Contacts.css';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
