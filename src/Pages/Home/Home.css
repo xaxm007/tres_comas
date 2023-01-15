@@ -93,3 +93,10 @@
   cursor: pointer; 
 
 }
+
+.kirtipur img
+{
+  height: 80vh;
+  padding:  2rem;
+  width: 170vh;
+}

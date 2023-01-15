@@ -3,6 +3,7 @@ import './Home.css'
 import Contacts from '../Contacts/Contacts'
 import Photos from '../Photos/buysell.png'
 import Pic from '../Photos/search.png'
+import kirtipur from '../Photos/kirtipur.png'
 
 const Home = () => {
   return (
@@ -23,15 +24,18 @@ const Home = () => {
                         <a className="navlink" href="/aboutus">About Us</a>
                     </li>
                 </ul>
+                
             </div>
 
             <div className = "search-bar">
-                <h1>Buy Sell Rent</h1>
+                <h1>Location</h1>
                 <form>
                     <input type="text" placeholder="Search"></input>
                 </form>
             </div>
-            
+            <section className = "kirtipur">
+                <img src = {kirtipur} alt = "image" />
+            </section>
         </section>
         <Contacts />
         

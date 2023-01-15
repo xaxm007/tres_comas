@@ -6,6 +6,7 @@ const  Buy = () => {
         <h1>
             Buy your favourite plot.
         </h1>
+        
 
     </>
   )
