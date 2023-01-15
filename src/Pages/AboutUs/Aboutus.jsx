@@ -37,9 +37,34 @@ const Aboutus = () => {
                 </p>
            <div className="Sales-row">
             <div className="Sales-coloumn">
-
+            <div className="progress-wrap">
+                <h3> Buy </h3>
+                <div className="progress">
+                    <div className="progress-bar">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div className="Sales-coloumn">
+            <div className="progress-wrap">
+                <h3> Sell </h3>
+                <div className="progress">
+                    <div className="progress-bar">
+                        <span>80%</span>
+                    </div>
+                </div>
             </div>
            </div>
+           <div className="Sales-coloumn">
+            <div className="progress-wrap">
+                <h3> Rent </h3>
+                <div className="progress">
+                    <div className="progress-bar">
+                        <span>30%</span>
+                    </div>
+                </div>
+            </div>
             </div>
 
         </div>
@@ -47,8 +72,8 @@ const Aboutus = () => {
 
         
         </div>
-    
-
+    </div>
+    </div>
 </section>
 </Fragment>
 
