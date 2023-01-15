@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 const Aboutus = () => {
   return(
     <>
-        <Fragment>
+
 
 <section className='About Us'>
 
@@ -50,7 +50,7 @@ const Aboutus = () => {
     
 
 </section>
-</Fragment>
+
 
     </>
     

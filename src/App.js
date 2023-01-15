@@ -13,6 +13,9 @@ const App = () => {
     <>
     
 
+      <Home />
+      <AboutUs />
+      <Contacts />
       <BrowserRouter>
         <Routes>
           <Route exact path = "/buy" element = {< Buy />} />
@@ -21,9 +24,7 @@ const App = () => {
 
         </Routes>
       </BrowserRouter>
-      <Home />
-      <AboutUs />
-      <Contacts />
+      
       
     </>
   )
