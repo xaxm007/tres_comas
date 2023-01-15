@@ -11,6 +11,18 @@
 {
     color: aliceblue;
     text-align: center;
+    margin-top:0.5rem;
+}
+.Links svg
+{
+    color: var(--color-white);
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+.Links svg:hover
+{
+    color: var(--color-white);
 }
 .Us
 {

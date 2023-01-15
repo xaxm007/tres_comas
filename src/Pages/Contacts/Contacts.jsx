@@ -11,7 +11,7 @@ function Contacts()
                 
                 <div class = "Links">
                     <p>Socials</p>
-                    <b><FiFacebook /></b>
+                    <FiFacebook />
                     <FiTwitter />
                     <FiInstagram />
                 </div>
