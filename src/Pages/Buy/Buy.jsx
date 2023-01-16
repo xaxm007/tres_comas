@@ -3,7 +3,7 @@ import React from 'react'
 const  Buy = () => {
   return (
     <>
-    <title>Buy/Sell Form</title>
+    <title>Buy/Sell Form Now</title>
     <body>
       <div class="main">
         <div class="fill form">
